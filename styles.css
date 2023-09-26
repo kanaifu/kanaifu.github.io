@@ -18,7 +18,13 @@ header
     background-color: #333;
     color: #fff;
     text-align: center;
+    position: relative;
     padding: 20px 0;
+}
+
+header img {
+    max-width: 100%; /* Ensure the image scales with the viewport width */
+    height: auto;
 }
 
 header h1 
