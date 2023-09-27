@@ -78,6 +78,50 @@ footer
     font-size: 14px;
 }
 
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px; /* Add margin for spacing between sections */
+}
+
+.portfolio-item {
+    flex: 0 1 calc(33.33% - 20px); /* Set a third of the container width with spacing */
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin for spacing between items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Style headings */
+.portfolio-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px; /* Add margin between title and description */
+}
+
+/* Style descriptions */
+.portfolio-item p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Style links */
+.portfolio-item a {
+    display: inline-block;
+    background-color: #0078d4;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.portfolio-item a:hover {
+    background-color: #005a9e;
+}
+
 /* Style links */
 a 
 {
@@ -109,6 +153,18 @@ a:hover
     max-width: 100%; /* Ensure images do not exceed the width of the wrapper */
     height: auto; /* Maintain the image's aspect ratio */
     display: block; /* Remove any extra spacing below the image */
+}
+
+.content {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.content p {
+    color: #666;
+    margin-bottom: 1em; /* Add margin to create spacing between paragraphs */
 }
 
 #wrapperdonut {
